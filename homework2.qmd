@@ -9,19 +9,17 @@ editor: visual
 ```{r}
 #| echo: true
 #| eval: false
-install.packages(aRtsy)
+install.packages("aRtsy")
 ```
 
-Installing the package using the install.packages() will permanently download 
-the package to your computer, while the library() will load it into your 
-R Studio environment allowing you to use the functions and information 
-in the package. 
+Installing the package using the install.packages() will permanently download the package to your computer, while the library() will load it into your R Studio environment allowing you to use the functions and information in the package.
 
 \newpage
+
 # *Packages*
 
 ## Question 2
+
 ```{r}
 library("aRtsy")
 ```
-
