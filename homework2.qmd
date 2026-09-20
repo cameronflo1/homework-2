@@ -1,0 +1,11 @@
+---
+title: "homework-2"
+format: html
+editor: visual
+---
+
+```{r}
+#| echo: true
+#| eval: false
+install.packages("aRtsy")
+```
