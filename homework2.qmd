@@ -23,3 +23,10 @@ Installing the package using the install.packages() will permanently download th
 ```{r}
 library("aRtsy")
 ```
+
+Essentially, the Collatz Conjecture is peace-wise function that outputs one no
+matter what positive number you initially put into the equation. 
+
+
+This is the Collatz Conjecture `r if(x%%2 == 0){return (x%%2)}else{return (3*x +1)}`
+
