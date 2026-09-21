@@ -27,6 +27,16 @@ library("aRtsy")
 Essentially, the Collatz Conjecture is peace-wise function that outputs one no
 matter what positive number you initially put into the equation. 
 
+```{r}
+x <- 6
+```
+This is the Collatz Conjecture `r if(x == even){return (x%%2)}else{return (3*x +1)}`
 
-This is the Collatz Conjecture `r if(x%%2 == 0){return (x%%2)}else{return (3*x +1)}`
+\newpage
+## Question 3
+
+```{r}
+canvas_collatz(40)
+```
+
 
