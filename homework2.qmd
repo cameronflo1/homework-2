@@ -52,8 +52,24 @@ set.seed(32)
 sample(1:100, 3)
 ```
 
-
-
 \newpage
 ## Question 4
+
+```{r}
+canvas_collatz(
+  colors = c("blue"),
+  n = 10
+)
+```
+
+```{r}
+canvas_collatz(
+  colors = c("blue"),
+  n = 1:20
+)
+```
+
+The code in the previous chunk is substituting the value n only for 10, while the code in question four is substituting n by indexing all number 1 through 20. The outcome, the code in question four is printing the n-values 1:20  onto the canvas while the code from the previous chunk is only printing the outcome of the n-value 10. While using the set.seed function to set the seed to 1 does change the starting value to one, the index already starts from the number 1, so it does not make any sense to set the seed to start at 1.
+
+
 
