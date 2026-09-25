@@ -1,6 +1,6 @@
 ---
 title: "homework-2"
-format: html
+format: pdf
 editor: visual
 ---
 
